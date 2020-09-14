@@ -1,0 +1,20 @@
+.reviews {
+  height: 600px;
+  margin-top: 220px;
+  background: url("/img/quote.png") no-repeat top left 50%;
+}
+.reviews__content-text {
+  padding: 50px 100px;
+  text-align: center;
+}
+.reviews__content-photo {
+  width: 155px;
+  height: 155px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.reviews__content-name {
+  font-size: 27px;
+  color: #263a41;
+  text-align: center;
+}
