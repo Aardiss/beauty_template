@@ -4,12 +4,12 @@
   background: url("/img/quote.png") no-repeat top left 50%;
 }
 .reviews__content-text {
-  padding: 50px 100px;
+  padding: 65px 100px;
   text-align: center;
 }
 .reviews__content-photo {
-  width: 155px;
-  height: 155px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   margin: 0 auto;
 }
@@ -17,4 +17,18 @@
   font-size: 27px;
   color: #263a41;
   text-align: center;
+}
+.reviews__nav-elem {
+  margin-bottom: 5px;
+  &--active {
+    .reviews__nav-button {
+      color: #ff544e;
+    }
+  }
+}
+.reviews__nav-button {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  color: #ff817e;
 }
