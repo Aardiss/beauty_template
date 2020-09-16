@@ -19,16 +19,23 @@
   text-align: center;
 }
 .reviews__nav-elem {
-  margin-bottom: 5px;
+  margin-right: 30px;
+  &:last-child {
+    margin-right: 0;
+  }
   &--active {
     .reviews__nav-button {
-      color: #ff544e;
+      background: #ff544e;
     }
   }
 }
 .reviews__nav-button {
-  width: 16px;
-  height: 16px;
+  height: 11px;
   border-radius: 50%;
-  color: #ff817e;
+  background: #ff817e;
+}
+.reviews__nav-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
 }
