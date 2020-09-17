@@ -1,7 +1,27 @@
-.phone-number {
+.phone__number {
   font-size: 22px;
   font-weight: bold;
-  padding-top: 25px;
   letter-spacing: 1.5px;
   color: #ff817e;
+}
+.phone__text {
+  opacity: 0;
+  width: 173px;
+  height: 42px;
+  font-size: 15px;
+  background-color: #ff817e;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: beige;
+  border-radius: 50%;
+}
+.phone {
+  padding-top: 25px;
+  &:hover {
+    .phone__text {
+      opacity: 1;
+    }
+  }
 }

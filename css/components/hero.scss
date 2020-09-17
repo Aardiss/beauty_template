@@ -1,6 +1,9 @@
 .hero {
   margin-top: 50px;
   min-height: 650px;
+  background-image: url("/img/Узор.png");
+  background-position: left;
+  background-repeat: no-repeat;
 }
 .hero__title-section {
   margin-top: 200px;
@@ -15,4 +18,8 @@
 .hero__text {
   padding-bottom: 50px;
   color: #555;
+}
+.hero__container {
+  background: url("/img/lash.png") no-repeat top -20% right -120px;
+  background-size: 699px;
 }

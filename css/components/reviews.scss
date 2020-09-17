@@ -2,6 +2,14 @@
   height: 600px;
   margin-top: 220px;
   background: url("/img/quote.png") no-repeat top left 50%;
+  ::before {
+  content: "";
+  width: 1316px;
+  height: 504px;
+  background: url("/img/Узор_на_фоне.png") right bottom  no-repeat;
+  display: block;
+  position: absolute;
+  }
 }
 .reviews__content-text {
   padding: 65px 100px;
