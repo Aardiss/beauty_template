@@ -1,3 +1,4 @@
+@import "mixin.scss";
 .hero {
   margin-top: 50px;
   min-height: 650px;
@@ -21,5 +22,9 @@
 }
 .hero__container {
   background: url("/img/lash.png") no-repeat top -20% right -120px;
-  background-size: 699px;
+  background-size: 674px;
+  @include tablets {
+    background: url(/img/lash.png) no-repeat top 54% right -101px;
+    background-size: 520px;
+  }
 }

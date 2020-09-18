@@ -1,3 +1,4 @@
+@import "mixin.scss";
 .footer {
   background-color: #ffc3c2;
   display: flex;
@@ -10,6 +11,7 @@
 }
 .footer__menu {
   margin-top: 30px;
+  width: 50%;
 }
 .footer__autor {
   margin-top: 20px;

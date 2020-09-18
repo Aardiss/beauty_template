@@ -101,7 +101,11 @@ footer {
 
 .hero__container {
   background: url("/img/lash.png") no-repeat top -20% right -120px;
-  background-size: 699px; }
+  background-size: 674px; }
+  @media screen and (max-width: 768px) {
+    .hero__container {
+      background: url(/img/lash.png) no-repeat top 54% right -101px;
+      background-size: 520px; } }
 
 .logo__img {
   max-width: 60px;
@@ -132,14 +136,17 @@ footer {
     -webkit-transition: 1s;
     -o-transition: 1s;
     transition: 1s; }
+  @media screen and (max-width: 768px) {
+    .menu__link {
+      font-size: 18px; } }
 
 .menu__list {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
-
-.menu__item {
-  padding-left: 70px; }
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
 
 .menu {
   -webkit-box-align: center;
@@ -147,11 +154,19 @@ footer {
   align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  width: 65%; }
+  @media screen and (max-width: 768px) {
+    .menu {
+      width: 60%; } }
 
 .maincontent {
   background: url("../img/bg.png") right -40px top -5% no-repeat;
   background-size: 500px; }
+  @media screen and (max-width: 768px) {
+    .maincontent {
+      background: url("../img/bg.png") right -40px top -2% no-repeat;
+      background-size: 500px; } }
 
 .phone__number {
   font-size: 22px;
@@ -179,9 +194,44 @@ footer {
   border-radius: 50%; }
 
 .phone {
-  padding-top: 25px; }
+  padding-top: 48px;
+  min-width: 180px; }
   .phone:hover .phone__text {
     opacity: 1; }
+  @media screen and (max-width: 768px) {
+    .phone {
+      display: none; } }
+
+.phone__tablets {
+  display: none; }
+  @media screen and (max-width: 768px) {
+    .phone__tablets {
+      display: table;
+      margin-left: 60%; } }
+
+.phone__text-tablets {
+  width: 173px;
+  height: 42px;
+  font-size: 15px;
+  background-color: #ff817e;
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: beige;
+  border-radius: 50%; }
+
+.phone__number-tablets {
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: #ff817e; }
 
 .btn--theme--pink {
   background: #ff817e;
@@ -218,6 +268,9 @@ footer {
   -ms-flex-align: center;
   align-items: center;
   padding: 0 180px; }
+  @media screen and (max-width: 768px) {
+    .about__content {
+      padding: 0 100px; } }
 
 .about__content-text {
   font-size: 20px;
@@ -238,6 +291,10 @@ footer {
   display: -ms-flexbox;
   display: flex;
   margin-top: 100px; }
+  @media screen and (max-width: 768px) {
+    .section__works {
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; } }
 
 .section {
   min-height: 500px; }
@@ -245,9 +302,17 @@ footer {
 .section__works-img {
   height: 115%;
   width: 100%; }
+  @media screen and (max-width: 768px) {
+    .section__works-img {
+      height: 90%; } }
 
 .section__works-content {
-  margin-left: 30px; }
+  margin-right: 30px; }
+  .section__works-content:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 768px) {
+    .section__works-content {
+      margin-right: 0; } }
 
 .section__container {
   max-width: 100%; }
@@ -257,14 +322,24 @@ footer {
   margin-right: 25px;
   -webkit-box-shadow: 13px 14px 18px -3px #888888;
   box-shadow: 13px 14px 18px -3px #888888;
-  min-height: 580px; }
+  min-width: 221px;
+  min-height: 460px; }
   .price__card:last-child {
     margin-right: 0; }
+  @media screen and (max-width: 768px) {
+    .price__card {
+      margin-right: 0;
+      margin-bottom: 60px;
+      min-height: 800px; } }
 
 .price__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+  @media screen and (max-width: 768px) {
+    .price__content {
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; } }
 
 .price {
   min-height: 500px;
@@ -272,6 +347,9 @@ footer {
   background-image: url("/img/узор_лист.png");
   background-position: left;
   background-repeat: no-repeat; }
+  @media screen and (max-width: 768px) {
+    .price {
+      background-position: left top; } }
 
 .price__card-img {
   margin: 38px auto;
@@ -281,6 +359,9 @@ footer {
   .price__card-img:hover {
     -webkit-box-shadow: 0px 0px 3px 4px #bbb;
     box-shadow: 0px 0px 3px 4px #bbb; }
+  @media screen and (max-width: 768px) {
+    .price__card-img {
+      height: 70%; } }
 
 .price__info {
   text-align: center;
@@ -290,22 +371,28 @@ footer {
   font-size: 45px;
   color: #1e2528;
   font-weight: bold; }
+  @media screen and (max-width: 768px) {
+    .price__info-title {
+      font-size: 50px; } }
 
 .price__info-text {
   color: #888888;
-  font-size: 20px; }
+  font-size: 19px; }
 
 .price__card-info {
   text-align: center;
   color: #263a41; }
 
 .price__card-title {
-  font-size: 40px;
+  font-size: 37px;
   color: #ff817e; }
 
 .price__card-text {
-  font-size: 20px;
-  padding: 0 60px; }
+  font-size: 16px;
+  padding: 0 36px; }
+  @media screen and (max-width: 768px) {
+    .price__card-text {
+      font-size: 24px; } }
 
 .reviews {
   height: 600px;
@@ -313,7 +400,7 @@ footer {
   background: url("/img/quote.png") no-repeat top left 50%; }
   .reviews ::before {
     content: "";
-    width: 1316px;
+    width: 104%;
     height: 504px;
     background: url("/img/Узор_на_фоне.png") right bottom no-repeat;
     display: block;
@@ -328,6 +415,10 @@ footer {
   height: 140px;
   border-radius: 50%;
   margin: 0 auto; }
+  @media screen and (max-width: 768px) {
+    .reviews__content-photo {
+      width: 115px;
+      height: 115px; } }
 
 .reviews__content-name {
   font-size: 27px;
@@ -438,7 +529,8 @@ footer {
   margin-top: 50px; }
 
 .footer__menu {
-  margin-top: 30px; }
+  margin-top: 30px;
+  width: 50%; }
 
 .footer__autor {
   margin-top: 20px; }

@@ -1,14 +1,24 @@
+@import "mixin.scss";
 .price__card {
   background-color: #fcf5ee;
   margin-right: 25px;
   box-shadow: 13px 14px 18px -3px #888888;
-  min-height: 580px;
+  min-width: 221px;
+  min-height: 460px;
   &:last-child {
     margin-right: 0;
+  }
+  @include tablets {
+    margin-right: 0;
+    margin-bottom: 60px;
+    min-height: 800px;
   }
 }
 .price__content {
   display: flex;
+  @include tablets {
+    flex-wrap: wrap;
+  }
 }
 .price {
   min-height: 500px;
@@ -16,6 +26,9 @@
   background-image: url("/img/узор_лист.png");
   background-position: left;
   background-repeat: no-repeat;
+  @include tablets {
+    background-position: left top;
+  }
 }
 .price__card-img {
   margin: 38px auto;
@@ -24,6 +37,9 @@
   border-radius: 17px;
   &:hover {
     box-shadow: 0px 0px 3px 4px #bbb;
+  }
+  @include tablets {
+    height: 70%;
   }
 }
 .price__info {
@@ -34,20 +50,26 @@
   font-size: 45px;
   color: #1e2528;
   font-weight: bold;
+  @include tablets {
+    font-size: 50px;
+  }
 }
 .price__info-text {
   color: #888888;
-  font-size: 20px;
+  font-size: 19px;
 }
 .price__card-info {
   text-align: center;
   color: #263a41;
 }
 .price__card-title {
-  font-size: 40px;
+  font-size: 37px;
   color: #ff817e;
 }
 .price__card-text {
-  font-size: 20px;
-  padding:0 60px;
+  font-size: 16px;
+  padding:0 36px;
+  @include tablets {
+    font-size: 24px;
+  }
 }

@@ -1,3 +1,4 @@
+@import "mixin.scss";
 .menu__link {
   text-decoration: none;
   font-size: 19px;
@@ -6,14 +7,20 @@
    color: #ff817e;
    transition: 1s;
   }
+  @include tablets {
+    font-size: 18px;
+  }
 }
 .menu__list {
   display: flex;
-}
-.menu__item {
-  padding-left: 70px;
+  width: 100%;
+  justify-content: space-around;
 }
 .menu {
   align-items: center;
   display: flex;
+  width: 65%;
+  @include tablets {
+    width: 60%;
+  }
 }

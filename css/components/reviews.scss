@@ -1,15 +1,17 @@
+@import "mixin.scss";
 .reviews {
   height: 600px;
   margin-top: 220px;
   background: url("/img/quote.png") no-repeat top left 50%;
   ::before {
   content: "";
-  width: 1316px;
+  width: 104%;
   height: 504px;
   background: url("/img/Узор_на_фоне.png") right bottom  no-repeat;
   display: block;
   position: absolute;
   }
+
 }
 .reviews__content-text {
   padding: 65px 100px;
@@ -20,6 +22,10 @@
   height: 140px;
   border-radius: 50%;
   margin: 0 auto;
+  @include tablets {
+    width: 115px;
+    height: 115px;
+  }
 }
 .reviews__content-name {
   font-size: 27px;
