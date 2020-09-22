@@ -12,6 +12,9 @@
 .footer__menu {
   margin-top: 30px;
   width: 50%;
+  @include tablets {
+    width: 60%;
+  }
 }
 .footer__autor {
   margin-top: 20px;

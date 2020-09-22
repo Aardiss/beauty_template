@@ -7,9 +7,6 @@
    color: #ff817e;
    transition: 1s;
   }
-  @include tablets {
-    font-size: 18px;
-  }
 }
 .menu__list {
   display: flex;
@@ -21,6 +18,9 @@
   display: flex;
   width: 65%;
   @include tablets {
-    width: 60%;
+    display: none;
   }
+}
+.menu__item {
+  min-width: 60px;
 }

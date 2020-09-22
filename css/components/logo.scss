@@ -2,12 +2,19 @@
 .logo__img {
   max-width: 60px;
   margin-left: 15px;
+  @include tablets {
+    max-width: 55px;
+  }
 }
 .logo__text {
   font-size: 25px;
   letter-spacing: 3px;
   color: #211833;
+  @include tablets {
+    font-size: 24px;
+  };
 }
 .logo__image {
   max-width: 65px;
+  
 }
