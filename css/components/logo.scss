@@ -5,6 +5,9 @@
   @include tablets {
     max-width: 55px;
   }
+  @include phones {
+    max-width: 46px;
+  }
 }
 .logo__text {
   font-size: 25px;
@@ -12,9 +15,14 @@
   color: #211833;
   @include tablets {
     font-size: 24px;
-  };
+  }
+  @include phones {
+    font-size: 20px;
+  }
 }
 .logo__image {
   max-width: 65px;
-  
+  @include phones {
+    max-width: 46px;
+  }
 }

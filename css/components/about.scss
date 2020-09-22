@@ -3,8 +3,14 @@
   background: url("../img/flover2.png")left 7% top no-repeat,
               url("../img/flover.png") right 20% bottom no-repeat;
  background-size: 120px;
- min-height: 500px;
+ min-height: 420px;
  margin-top: 50px;
+ @include tablets {
+   background-size: 90px;
+ }
+ @include phones {
+    background-size: 66px;
+}
 }
 .about__content {
   display: flex;
@@ -14,18 +20,37 @@
   @include tablets {
     padding: 0 100px;
   }
+  @include phones {
+    padding: 0 45px;
+  }
 }
 .about__content-text {
   font-size: 20px;
   color: #888;
+  @include tablets{
+    font-size: 18px;
+  }
+  @include phones {
+    font-size: 16px;
+  }
 }
 .about__content-title {
   font-size: 45px;
   padding-bottom: 55px;
   color: #1e2528;
+  @include tablets {
+    font-size: 36px;
+    padding-bottom: 20px;
+  }
+  @include phones {
+    font-size: 31px;
+  }
 }
 .about__content-info {
   text-align: center;
   color: #888888;
   font-size: 17px;
+  @include phones {
+    font-size: 16px;
+  }
 }
