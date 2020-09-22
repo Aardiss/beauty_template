@@ -12,4 +12,7 @@
   padding: 18px 35px;
   line-height: 1;
   border-radius: 100%;
+  @include phones {
+    font-size: 12px;
+  }
 }

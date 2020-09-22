@@ -5,6 +5,9 @@
   flex-direction: column;
   align-items: center;
   height: 300px;
+  @include tablets {
+    height: 400px;
+  }
 }
 .footer__logo {
   margin-top: 50px;

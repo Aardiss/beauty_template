@@ -10,12 +10,22 @@
   background: url("/img/Узор_на_фоне.png") right bottom  no-repeat;
   display: block;
   position: absolute;
+  z-index: -1;
   }
-
+ @include tablets {
+   margin-top: 55px;
+ }
 }
 .reviews__content-text {
   padding: 65px 100px;
   text-align: center;
+  @include tablets {
+    padding: 65px 50px;
+  }
+  @include phones {
+    padding: 65px 35px;
+    font-size: 16px;
+  }
 }
 .reviews__content-photo {
   width: 140px;
@@ -23,14 +33,21 @@
   border-radius: 50%;
   margin: 0 auto;
   @include tablets {
-    width: 115px;
-    height: 115px;
+    width: 105px;
+    height: 105px;
+  }
+  @include phones {
+    width: 95px;
+    height: 95px;
   }
 }
 .reviews__content-name {
   font-size: 27px;
   color: #263a41;
   text-align: center;
+  @include phones {
+    font-size: 24px;
+  }
 }
 .reviews__nav-elem {
   margin-right: 30px;
@@ -47,6 +64,7 @@
   height: 11px;
   border-radius: 50%;
   background: #ff817e;
+  outline: none;
 }
 .reviews__nav-list {
   display: flex;

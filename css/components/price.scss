@@ -11,7 +11,10 @@
   @include tablets {
     margin-right: 0;
     margin-bottom: 60px;
-    min-height: 800px;
+    min-height: 650px;
+  }
+  @include phones {
+    min-height: 480px;
   }
 }
 .price__content {
@@ -39,7 +42,7 @@
     box-shadow: 0px 0px 3px 4px #bbb;
   }
   @include tablets {
-    height: 70%;
+    height: 60%;
   }
 }
 .price__info {
@@ -53,10 +56,16 @@
   @include tablets {
     font-size: 50px;
   }
+  @include phones {
+    font-size: 38px;
+  }
 }
 .price__info-text {
   color: #888888;
   font-size: 19px;
+  @include phones {
+    font-size: 16px;
+  }
 }
 .price__card-info {
   text-align: center;
@@ -65,11 +74,17 @@
 .price__card-title {
   font-size: 37px;
   color: #ff817e;
+  @include phones {
+    font-size: 33px;
+  }
 }
 .price__card-text {
   font-size: 16px;
   padding:0 36px;
   @include tablets {
     font-size: 24px;
+  }
+  @include phones {
+    font-size: 15px;
   }
 }
