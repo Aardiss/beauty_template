@@ -12,12 +12,17 @@
 .section__works-img {
   height: 115%;
   width: 100%;
+  transition: transform .5s ease;
   @include tablets {
     height: 90%;
+  }
+  &:hover {
+    transform: scale(1.5);
   }
 }
 .section__works-content {
   margin-right: 30px;
+  overflow: hidden;
   &:last-child {
     margin-right: 0;
   }

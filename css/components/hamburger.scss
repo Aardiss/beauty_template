@@ -3,7 +3,7 @@
   height: 25px;
   flex-direction: column;
   justify-content: space-between;
-  display: none;
+  // display: none;
   cursor: pointer;
   @include tablets {
     display: inline-flex;
@@ -52,6 +52,7 @@
   line-height: 1.111rem;
 }
 .menu_window {
+  display: block;
   z-index: 1000;
   opacity: 1;
   cursor: pointer;
