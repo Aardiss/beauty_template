@@ -3,15 +3,6 @@
   height: 600px;
   margin-top: 220px;
   background: url("/img/quote.png") no-repeat top left 50%;
-  ::before {
-  content: "";
-  width: 104%;
-  height: 504px;
-  background: url("/img/Узор_на_фоне.png") right bottom  no-repeat;
-  display: block;
-  position: absolute;
-  z-index: -1;
-  }
  @include tablets {
    margin-top: 55px;
  }
@@ -28,8 +19,8 @@
   }
 }
 .reviews__content-photo {
-  width: 140px;
-  height: 140px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   margin: 0 auto;
   @include tablets {

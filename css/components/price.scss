@@ -12,6 +12,7 @@
     margin-right: 0;
     margin-bottom: 60px;
     min-height: 650px;
+    box-shadow: none;
   }
   @include phones {
     min-height: 480px;

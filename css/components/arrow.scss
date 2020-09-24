@@ -1,0 +1,19 @@
+.reviews__arrow-left,
+.reviews__arrow-right {
+  height: 50px;
+  width: 50px;
+  font-size: 36px;
+  font-weight: bold;
+  background-color: #ff817e;
+  border-radius: 10px;
+  color: white;
+  &:hover {
+    transition: 1s;
+    box-shadow: 0px 0px 23px 1px #abacac;
+  }
+}
+.reviews__arrow {
+  display: flex;
+  justify-content: space-between;
+}
+
