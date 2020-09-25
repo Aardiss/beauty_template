@@ -8,7 +8,8 @@
  }
 }
 .reviews__content-text {
-  padding: 65px 100px;
+  padding: 106px 100px 0px 100px;
+ 
   text-align: center;
   @include tablets {
     padding: 65px 50px;
@@ -61,4 +62,10 @@
   display: flex;
   justify-content: center;
   margin-top: 40px;
+}
+.bx-wrapper {
+  background: none;
+  border: none;
+  box-shadow: none;
+  
 }
