@@ -24,6 +24,7 @@
   height: 130px;
   border-radius: 50%;
   margin: 0 auto;
+  object-fit: cover;
   @include tablets {
     width: 105px;
     height: 105px;
@@ -46,10 +47,10 @@
   &:last-child {
     margin-right: 0;
   }
-  &--active {
-    .reviews__nav-button {
-      background: #ff544e;
-    }
+}
+.active {
+  .reviews__nav-button {
+    background: #ff544e;
   }
 }
 .reviews__nav-button {
@@ -57,6 +58,9 @@
   border-radius: 50%;
   background: #ff817e;
   outline: none;
+  &:hover {
+    background: #ff544e;
+  }
 }
 .reviews__nav-list {
   display: flex;

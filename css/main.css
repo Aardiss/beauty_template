@@ -520,7 +520,9 @@ footer {
   width: 130px;
   height: 130px;
   border-radius: 50%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  -o-object-fit: cover;
+  object-fit: cover; }
   @media screen and (max-width: 768px) {
     .reviews__content-photo {
       width: 105px;
@@ -542,14 +544,17 @@ footer {
   margin-right: 30px; }
   .reviews__nav-elem:last-child {
     margin-right: 0; }
-  .reviews__nav-elem--active .reviews__nav-button {
-    background: #ff544e; }
+
+.active .reviews__nav-button {
+  background: #ff544e; }
 
 .reviews__nav-button {
   height: 11px;
   border-radius: 50%;
   background: #ff817e;
   outline: none; }
+  .reviews__nav-button:hover {
+    background: #ff544e; }
 
 .reviews__nav-list {
   display: -webkit-box;
