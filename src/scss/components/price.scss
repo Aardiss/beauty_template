@@ -1,21 +1,21 @@
 @import "mixin.scss";
 .price__card {
   background-color: #fcf5ee;
-  margin-right: 25px;
-  box-shadow: 13px 14px 18px -3px #888888;
-  min-width: 221px;
-  min-height: 460px;
+  margin-right: 1.388rem;
+  box-shadow: 0.722rem 0.777rem 1rem -0.166rem #888888;
+  min-width: 12.277rem;
+  min-height: 25.555rem;
   &:last-child {
     margin-right: 0;
   }
   @include tablets {
     margin-right: 0;
-    margin-bottom: 60px;
-    min-height: 650px;
+    margin-bottom: 3.333rem;
+    min-height: 36.111rem;
     box-shadow: none;
   }
   @include phones {
-    min-height: 480px;
+    min-height: 26.666rem;
   }
 }
 .price__content {
@@ -25,8 +25,8 @@
   }
 }
 .price {
-  min-height: 500px;
-  margin-top: 50px;
+  min-height: 27.777rem;
+  margin-top: 2.777rem;
   background-image: url("/img/узор_лист.png");
   background-position: left;
   background-repeat: no-repeat;
@@ -35,37 +35,34 @@
   }
 }
 .price__card-img {
-  margin: 38px auto;
+  margin: 2.111rem auto;
   width: 80%;
   height: 56%;
-  border-radius: 17px;
+  border-radius: 0.944rem;
   &:hover {
-    box-shadow: 0px 0px 3px 4px #bbb;
-  }
-  @include tablets {
-    height: 60%;
+    box-shadow: 0rem 0rem 0.166rem 0.222rem  #bbb;
   }
 }
 .price__info {
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 4.444rem;
 }
 .price__info-title {
-  font-size: 45px;
+  font-size: 2.5rem;
   color: #1e2528;
   font-weight: bold;
   @include tablets {
-    font-size: 50px;
+    font-size: 2.777rem;
   }
   @include phones {
-    font-size: 38px;
+    font-size: 2.111rem;
   }
 }
 .price__info-text {
   color: #888888;
-  font-size: 19px;
+  font-size: 1.055rem;
   @include phones {
-    font-size: 16px;
+    font-size: 0.888rem;
   }
 }
 .price__card-info {
@@ -73,19 +70,19 @@
   color: #263a41;
 }
 .price__card-title {
-  font-size: 37px;
+  font-size: 2.055rem;
   color: #ff817e;
   @include phones {
-    font-size: 33px;
+    font-size: 1.833rem;
   }
 }
 .price__card-text {
-  font-size: 16px;
-  padding:0 36px;
+  font-size: 0.888rem;
+  padding:0 2rem;
   @include tablets {
-    font-size: 24px;
+    font-size: 1.333rem;
   }
   @include phones {
-    font-size: 15px;
+    font-size: 0.833rem;
   }
 }

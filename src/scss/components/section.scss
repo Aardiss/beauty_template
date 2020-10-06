@@ -1,13 +1,13 @@
 @import "mixin.scss";
 .section__works {
   display: flex;
-  margin-top: 100px;
+  margin-top: 5.555rem;
   @include tablets {
     flex-wrap: wrap;
   }
 }
 .section {
-  min-height: 500px;
+  min-height: 27.777rem;
 }
 .section__works-img {
   height: 115%;
@@ -21,7 +21,7 @@
   }
 }
 .section__works-content {
-  margin-right: 30px;
+  margin-right: 1.666rem;
   overflow: hidden;
   &:last-child {
     margin-right: 0;

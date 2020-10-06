@@ -1,0 +1,28 @@
+@import "mixin.scss";
+.logo__img {
+  max-width: 3.333rem;
+  margin-left: 0.833rem;
+  @include tablets {
+    max-width: 3.055rem;
+  }
+  @include phones {
+    max-width: 2.555rem;
+  }
+}
+.logo__text {
+  font-size: 1.388rem;
+  letter-spacing: 0.166rem;
+  color: #211833;
+  @include tablets {
+    font-size: 1.333rem;
+  }
+  @include phones {
+    font-size: 1.111rem;
+  }
+}
+.logo__image {
+  max-width: 3.611rem;
+  @include phones {
+    max-width: 2.555rem;
+  }
+}

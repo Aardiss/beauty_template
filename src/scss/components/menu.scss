@@ -1,7 +1,7 @@
 @import "mixin.scss";
 .menu__link {
   text-decoration: none;
-  font-size: 19px;
+  font-size: 1.055rem;
   color: #263a41;
   &:hover {
    color: #ff817e;
@@ -26,5 +26,5 @@
   }
 }
 .menu__item {
-  min-width: 60px;
+  min-width: 3.333rem;
 }

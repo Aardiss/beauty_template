@@ -2,55 +2,55 @@
 .about {
   background: url("../img/flover2.png")left 7% top no-repeat,
               url("../img/flover.png") right 20% bottom no-repeat;
- background-size: 120px;
- min-height: 420px;
- margin-top: 50px;
+ background-size: 6.666rem;
+ min-height: 23.333rem;
+ margin-top: 2.777rem;
  @include tablets {
-   background-size: 90px;
+   background-size: 5rem;
  }
  @include phones {
-    background-size: 66px;
+    background-size: 3.666rem;
 }
 }
 .about__content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 180px;
+  padding: 0 10rem;
   @include tablets {
-    padding: 0 100px;
+    padding: 0 5.555rem;
   }
   @include phones {
-    padding: 0 45px;
+    padding: 0 2.5rem;
   }
 }
 .about__content-text {
-  font-size: 20px;
+  font-size: 1.111rem;
   color: #888;
   @include tablets{
-    font-size: 18px;
+    font-size: 1rem;
   }
   @include phones {
-    font-size: 16px;
+    font-size: 0.888rem;
   }
 }
 .about__content-title {
-  font-size: 45px;
-  padding-bottom: 55px;
+  font-size: 2.5rem;
+  padding-bottom: 3.055rem;
   color: #1e2528;
   @include tablets {
-    font-size: 36px;
-    padding-bottom: 20px;
+    font-size: 2rem;
+    padding-bottom: 1.111rem;
   }
   @include phones {
-    font-size: 31px;
+    font-size: 1.722rem;
   }
 }
 .about__content-info {
   text-align: center;
   color: #888888;
-  font-size: 17px;
+  font-size: 0.944rem;
   @include phones {
-    font-size: 16px;
+    font-size: 0.888rem;
   }
 }

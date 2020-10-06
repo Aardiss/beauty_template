@@ -1,0 +1,47 @@
+@import "mixin.scss";
+.hero {
+  margin-top: 2.777rem;
+  min-height: 36.111rem;
+  background-image: url("../img/Узор.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  @include tablets {
+  .hero {
+    margin-top: 1.666;
+    background-position: left bottom; }
+  }
+}
+.hero__title-section {
+  margin-top: 11.111rem;
+  max-width: 50%;
+  @include tablets {
+    margin: 3.333rem auto;
+    text-align: center;
+  }
+  @include phones {
+    margin: 5.277rem auto;
+  }
+}
+.hero__title {
+  font-size: 2.777rem;
+  font-weight: bold;
+  padding-bottom: 1.111rem;
+  color: #1e2528;
+  @include phones {
+    font-size: 1.833rem;
+  }
+}
+.hero__text {
+  padding-bottom: 2.777rem;
+  color: #555;
+  @include phones {
+    font-size: 0.944rem;
+  }
+}
+.hero__container {
+  background: url("/img/lash.png") no-repeat top -20% right -6.666rem;
+  background-size: 37.444rem;
+  @include tablets {
+    background: none;
+  }
+}

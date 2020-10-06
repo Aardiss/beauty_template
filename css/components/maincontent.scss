@@ -1,9 +1,0 @@
-@import "mixin.scss";
-.maincontent {
-  background: url("../img/bg.png")right -40px  top -5% no-repeat;
-  background-size: 500px;
-  @include tablets {
-  background: url("../img/bg.png")right -40px  top -2% no-repeat;
-  background-size: 500px;
-  }
-}

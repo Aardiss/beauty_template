@@ -1,18 +1,18 @@
 @import "mixin.scss";
 
 .phone__number {
-  font-size: 22px;
+  font-size: 1.222rem;
   font-weight: bold;
   letter-spacing: 1.5px;
   color: #ff817e;
 }
 .phone__text {
   opacity: 0;
-  width: 173px;
-  height: 42px;
-  font-size: 15px;
+  width: 9.611rem;
+  height: 2.333rem;
+  font-size: 0.833rem;
   background-color: #ff817e;
-  margin-top: 5px;
+  margin-top: 0.277rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,8 +20,8 @@
   border-radius: 50%;
 }
 .phone {
-  padding-top: 48px;
-  min-width: 180px;
+  padding-top: 2.666rem;
+  min-width: 10rem;
   &:hover {
     .phone__text {
       opacity: 1;
@@ -38,27 +38,27 @@
   }
 }
 .phone__text-tablets {
-  width: 173px;
-  height: 42px;
-  font-size: 15px;
+  width: 9.611rem;
+  height: 2.388rem;
+  font-size: 0.833rem;
   background-color: #ff817e;
-  margin-top: 5px;
+  margin-top: 0.277rem;
   display: flex;
   justify-content: center;
   align-items: center;
   color: beige;
   border-radius: 50%;
   @include phones {
-    width: 158px;
-    font-size: 13px;
+    width: 8.777rem;
+    font-size: 0.722rem;
   }
 }
 .phone__number-tablets {
-  font-size: 22px;
+  font-size: 1.222rem;
   font-weight: bold;
   letter-spacing: 1.5px;
   color: #ff817e;
   @include phones {
-    font-size: 19px;
+    font-size: 1.055rem;
   }
 }

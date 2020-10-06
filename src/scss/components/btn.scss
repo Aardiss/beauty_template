@@ -3,16 +3,16 @@
   color: white;
   &:hover {
     transition: 1s;
-    box-shadow: 0px 0px 23px 1px #abacac;
+    box-shadow: 0rem 0rem 1.277rem 0.055rem #abacac;
   }
 }
 .btn {
-  font-size: 21px;
+  font-size: 1.166rem;
   font-weight: bold;
-  padding: 18px 35px;
+  padding: 1rem 1.944rem;
   line-height: 1;
   border-radius: 100%;
   @include phones {
-    font-size: 12px;
+    font-size: 0.666rem;
   }
 }
